@@ -80,3 +80,7 @@ input::placeholder {
     transform: translate(50px, 50px); /* Adjust the values as needed */
   }
   
+  footer {
+    text-align: center;
+    color:#f3f3f8;
+  }
