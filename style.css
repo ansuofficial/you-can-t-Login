@@ -4,16 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #0f0c0c;
+}
+
+
 h1 {
     text-align: center;
+    background: red;
 }
 
 form {
-    background: #3e5250;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .form__element {
@@ -36,21 +41,17 @@ input::placeholder {
 }
 
 .form__content {
-    background: linear-gradient(45deg, #f1f374, #04c02d, #f1f374);
+    background: linear-gradient(45deg, #f53434, #0f0e0e, #f53434);
     height: 50vh;
     padding: 25px;
     border-radius: 35px;
-    transition: .5s;
+    transition: 1s;
 }
 
 .form__content:hover {
-    background: linear-gradient(45deg, #fbff00, #5ce079 , #fbff00);
-    box-shadow: 12px 12px 55px rgba(156, 255, 125, 0.5);
+    background: linear-gradient(45deg, #ff0000, #000000 , #ff0000);
+    box-shadow: 12px 12px 55px rgba(255, 0, 0, 0.5);
 
-}
-
-.submit {
-    margin-top: 10px;
 }
 
 .submit button {
