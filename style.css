@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+h1 {
+    text-align: center;
+}
+
+form {
     background: #3e5250;
     display: flex;
     align-items: center;
